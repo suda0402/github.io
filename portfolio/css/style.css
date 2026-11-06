@@ -1,0 +1,236 @@
+/*-------  ここから共通のCSS  --------*/
+body {
+  margin: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  color: #888;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #323A45;
+  transition: all .3s;
+}
+
+a:hover {
+  color: #5983ff;
+  text-decoration: none;
+}
+
+h2, h3, h4, h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h4, h5 {
+  color: #444;
+  font-size: 18px;
+}
+
+.container {
+  width: px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-title {
+  color: #555;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.section-title h3 {
+  margin: 10px 0;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.gray-section {
+  background: #f4f4f4;
+  color: #888;
+}
+/*-------  ここまで共通のCSS  --------*/
+
+/*-------  ここからheader  --------*/
+header {
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  line-height: 50px;
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.header-title {
+  float: left;
+}
+
+.header-logo {
+  color: #777;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: 'Dosis', sans-serif;
+  cursor: pointer;
+}
+
+.header-menu-right {
+  float: right;
+}
+
+.header-menu-right li {
+  float: left;
+}
+
+.header-menu-right a {
+  color: #323A45;
+  font-weight: 700;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.header-menu-right a:hover {
+  color: #5983ff;
+  transition: color .3s;
+}
+/*-------  ここまでheader  --------*/
+
+/*-------  ここからtop --------*/
+.top-section {
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/img/top.png");
+  background-size: cover;
+}
+
+.top-inner {
+  padding: 0;
+  padding-top: 80px;
+  padding-bottom: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.top-description {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.top-section h2 {
+  font-family: 'Dosis', sans-serif;
+  color: #fff;
+  font-size: 100px;
+  line-height: 54px;
+  margin: 20px 0 30px 0;
+  font-weight: 400;
+  position: absolute;
+}
+
+/*-------  ここまでtop  --------*/
+
+/*-------  ここからabout  --------*/
+.about-section {
+  text-align: center;
+  margin: 0 auto;
+  background-image: url("/img/about.png");
+  background-size: cover;
+}
+
+.section-title p {
+  margin: 0px 0 50px 0;
+}
+
+.about-inner {
+  padding: 0;
+  padding-top: 80px;
+  padding-bottom: 130px;
+}
+
+/*-------  ここまでabout  --------*/
+
+/*-------  ここからworks -----*/
+.works-section {
+  margin: 0 auto;
+  text-align: left;
+  background-image: url("/img/works.png");
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+.works-section-top{
+ text-align: left;   
+ margin-left: 65px;
+ margin-top: 40px;
+}
+
+.section-title p {
+  margin: 0px 0 50px 0;
+}
+
+.works-explain {
+  display: inline-block;
+  vertical-align: top;
+  width: 44%;
+  margin-left: 65px;
+  margin-bottom: 60px;
+}
+
+/*-------  ここまでworks --------*/
+
+/*-------  ここからfooter  --------*/
+footer {
+  text-align: center;
+  padding: 1% 0;
+  color: #999;
+  background-color: #222;
+}
+
+.contact {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact img{
+   width: 8%; 
+   height: auto; 
+}
+
+.contact p{
+   margin: 20px 0px 20px 20px;
+}
+
+/*-------  ここまでfooter  --------*/
+
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+  .item {
+    width: 50%;
+  }
+}
+
+/* スマートフォン向けレイアウト */
+@media (max-width: 670px) {
+  .item {
+    width: 100%;
+  }
+}
