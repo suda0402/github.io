@@ -117,7 +117,7 @@ header {
 .top-section {
   margin: 0 auto;
   text-align: center;
-  background-image: url("img/top.png");
+  background-image: url("./top.png");
   background-size: cover;
 }
 
